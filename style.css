@@ -10,7 +10,9 @@
           box-sizing: border-box;
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
   list-style: none;
   display: block;
 }
@@ -41,7 +43,7 @@ textarea {
   select{appearance: none !important; border-radius: 0;}
   */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body #root {
@@ -71,6 +73,8 @@ body .inputField {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -83,9 +87,9 @@ body input {
 
 body input[type="text"] {
   height: 50px;
-  width: 40vw;
+  width: 60vw;
   color: white;
-  background: #0094C6;
+  background: #0094c6;
 }
 
 body input::-webkit-input-placeholder {
@@ -110,7 +114,7 @@ body button {
   padding: 10px;
   color: white;
   border-radius: 10px;
-  background-color: #0094C6;
+  background-color: #0094c6;
 }
 
 body .result {
@@ -118,16 +122,5 @@ body .result {
   height: 40vh;
   margin-top: 10px;
   background-color: #127fa3;
-  color: white;
-}
-
-h1 { 
-  color: white;
-  margin-bottom: 20px;
-}
-
-h2 {
-	color: white;
-	margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
