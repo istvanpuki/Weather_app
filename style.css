@@ -7,7 +7,7 @@
   text-decoration: none;
   font-family: inherit;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ol,
@@ -53,17 +53,23 @@ body #root {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #0a7092;
   color: white;
+}
+
+body #root h1,
+body h2 {
+  color: white;
+  margin-bottom: 20px;
 }
 
 body .inputField {
@@ -72,11 +78,11 @@ body .inputField {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #127fa3;
   color: white;
 }
@@ -122,11 +128,5 @@ body .result {
   height: 40vh;
   margin-top: 10px;
   background-color: #127fa3;
-}
-
-h1,
-h2 {
-  color: white;
-  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
