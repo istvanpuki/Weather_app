@@ -74,12 +74,11 @@ body .inputField {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #127fa3;
+  color: white;
 }
 
 body input {
